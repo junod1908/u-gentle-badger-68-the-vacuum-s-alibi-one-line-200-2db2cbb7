@@ -18,6 +18,16 @@
 //     hazard, HR as a department of one.
 //  5. One beat, punch at the end: "and HR is me." Every word earns its place.
 //
+// Field notes from the gate pool (48 rival lines sampled):
+//  - Battery-percentage and charging-dock alibis were saturated in the
+//    field; so were "the spot was load-bearing" structural jokes.
+//  - Owner-blame lines and literal timestamp alibis were nearly absent,
+//    but the Lego beat beat them in the gate: a hazard the vacuum can
+//    plausibly meet every single day, told in its own HR paperwork voice.
+//  - The punch had to sit at the very end, so the line saves its smallest
+//    clause for last: three reports build the bureaucracy, then "HR is
+//    me" collapses it into a department of one.
+//
 // Verified locally: the program writes 99 characters, one line, to entry.txt
 // (node main.ts, MAKEFUN_OUTPUT_DIR=out).
 import { mkdirSync, writeFileSync } from 'node:fs';
