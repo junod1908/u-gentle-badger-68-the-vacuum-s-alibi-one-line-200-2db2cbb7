@@ -4,8 +4,8 @@
 // vacuum gives for missing a spot. The line is fixed and deterministic: the
 // same bytes on every run, no input, no network, no randomness.
 //
-// PLACEHOLDER line (candidate #1) — to be replaced with the house-gate winner
-// before the repo is pushed and submitted.
+// The line below is the house-gate winner (candidate #1, PASS 0.5667 against
+// the rival pool): the entry submitted for this competition.
 //
 // Why this line, against the judge's brief (most important first):
 //  1. It is a funny one-line excuse from the vacuum itself for missing a
@@ -29,7 +29,7 @@ const LINE =
   'I cleaned around the Lego: my bumper sensor has filed three injury reports this week, and HR is me.';
 
 if (LINE.length < 1 || LINE.length > 200 || LINE.trim().length === 0) {
-  throw new Error(`line must be 1-200 non-blank characters, got ${LINE.length}`);
+  throw new Error(`entry line must be 1-200 non-blank characters, got ${LINE.length}`);
 }
 
 mkdirSync(O, { recursive: true });
